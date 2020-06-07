@@ -709,3 +709,153 @@
 
 
 
+//-------------------------------chapter 10-12----------------------------------------//
+
+//--------------------------------------task 01-------------------------------------//
+// var user_input = prompt('Enter a character');
+
+// if(user_input == ''){
+//     console.log( 'Go back');
+
+// }   
+// else{
+//    var result = user_input.charCodeAt(0);
+//    console.log('The ASCI code of character is :',result);
+// //    var input_type = String.fromCharCode(result);
+// //    console.log('The value of character is :',input_type);
+//   if(result >= 65 && result <= 90 ){
+//       console.log('Its is Upper case character!')
+//   }
+//   else if (result >= 97 && result <= 122 ){
+//     console.log('Its is Lower case character!')
+// }
+// else if(result >= 48 && result <= 57){
+// console.log('Its a number')
+// }
+
+// else{
+//     console.log('Enter valid character.....')
+// }
+
+// }
+
+
+//--------------------------------------task 02-------------------------------------//
+
+
+
+// var user_input_1 = +prompt('Enter first number');
+// var user_input_2 = +prompt('Enter second number');
+
+
+// if( user_input_1 > user_input_2){
+//     console.log('First number is larger than the second number');
+// }
+// else if (user_input_1 < user_input_2){
+//     console.log('Second number is larger than the second number');
+
+// }
+// else if (user_input_1 == user_input_2){
+//     console.log('Both numbers are equal!');
+
+// }
+
+
+
+//--------------------------------------task 03-------------------------------------//
+
+// var user_input =prompt('Enter the alphabet')
+
+
+// if( user_input == 'a' || user_input == 'e' || user_input == 'i' || user_input == 'o' || user_input == 'u' ){
+//     console.log('Vowel')
+// }
+// else{
+//     console.log('Not vowel')
+// }
+
+
+//---------------------------------- task 04------------------------------------------//
+
+// var greeting; 
+// var hour = 13;
+//  if (hour < 18) { 
+//     greeting = "Good day";
+//     console.log(greeting); 
+// }
+
+//  else{ 
+//     greeting = "Good evening";
+//      console.log(greeting);
+// }
+
+
+
+
+
+
+//--------------------------------------task 05-------------------------------------//
+
+
+
+
+// var password = 'Pakistan';
+// var user_pass = prompt('Enter the Password');
+
+// if(user_pass == ''){
+//     alert('Enter the Password');
+
+// }
+// else if(user_pass == password){
+//     alert('Password Match!');
+// }
+// else{
+//     alert('Password dont match')
+// }
+
+
+
+
+
+
+//--------------------------------------task 06-------------------------------------//
+
+
+// var time_input = +prompt('Enter the time in 24 hours format');
+
+// if(time_input >= 0000 && time_input < 1200){
+//     console.log('Good Morning');
+// }
+// else if(time_input >= 1200 && time_input < 1700){
+//     console.log('Good Afternoon');
+// }
+// else if(time_input >= 1700 && time_input < 2100){
+//     console.log('Good Evening');
+// }
+
+// else if(time_input >= 2100 && time_input < 2359){
+//     console.log('Good night');
+// }
+
+
+
+
+
+//----------------------------------------End of chapter 12-13--------------------//
+
+
+
+
+
+
+
+
+
+
+// -------------------------------------chapter 14----------------------------------//
+
+
+
+
+
+
