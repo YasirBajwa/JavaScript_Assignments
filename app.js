@@ -1087,3 +1087,216 @@
 // for (var i = 0; i< mobile_comapnies.length; i++){
 //     document.write(mobile_comapnies[i]+'<br>');
 // }
+
+
+
+
+
+
+
+
+
+//--------------------------------chapter 17 - chapter 20-----------------//
+
+//---------------------------------task 01--------------------------------//
+// Declare and initialize an empty multidimensional array. (Array of arrays)
+
+// var arr_list =[
+//     ['Yasir','Arslan','Ahmad'],
+//     ['Faisalabad','Karachi','Toba Tek Singh'],
+//     [1,2,3]
+// ]
+
+
+//---------------------------------task 02--------------------------------//
+// Declare and initialize a multidimensional array representing the following matrix:
+
+// var matrix_arr =[
+//     [0,1,2,3],
+//     [1,0,2,3],
+//     [2,1,0,3]
+// ]
+
+// for (var i=0 ; i < matrix_arr.length; i++){
+//     var newArr = matrix_arr[i].join(' ')
+//     document.write(newArr+'<br>');
+// }
+
+
+//---------------------------------task 03-------------------------------//
+//Write a program to print numeric counting from 1 to 10.
+
+// for (var i= 1; i<11 ; i++ ){
+//     console.log(i);
+// }
+
+
+
+//---------------------------------task 04-------------------------------//
+// Write a program to print multiplication table of any number using for loop. 
+// Table number & length should be taken as an input from user.
+
+// var table_num = +prompt('Write the table number for table');
+// var table_length = +prompt('Write the length of table ');
+
+// document.write(`Multilpication table of ${table_num} <br> Length ${table_length} <br>`)  ;
+// if (table_num =='' || table_length ==''){
+//     alert('Enter the table num and length');
+// }
+
+// else{
+//   for ( var i=1 ; i<= table_length ; i++){
+   
+//     document.write(`${table_num} * ${i} = ${table_num * i} <br>`);
+//   }
+// }
+
+
+
+
+
+
+//---------------------------------task 04-------------------------------//
+//Write a program to print items of the following array using for loop:
+// fruits = [“apple”, “banana”, “mango”, “orange”, “strawberry”]
+
+
+// fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry'];
+// for(var i= 0; i < fruits.length ; i++){
+//     console.log(`${i}) ${fruits[i]}`)
+// } 
+
+
+
+//---------------------------------task 06-------------------------------//
+// Generate the following series in your browser. See example output.
+//  a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+//  b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 
+//  c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 
+//  d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 
+//  e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
+
+
+
+//--------------------------------task 06 part a ---------------------//
+// var num_arr_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+//      for(var i = 0; i<num_arr_list.length ; i++){
+//       console.log(` ${ num_arr_list[i]}`)    
+// }
+
+
+
+
+
+//--------------------------------task 06 part b ---------------------//
+// var num_arr_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+// var reverse_num_list = num_arr_list.reverse();
+// console.log(reverse_num_list);
+
+
+
+
+//--------------------------------task 06 part b ---------------------//
+// var num_arr_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+// let even_num  =num_arr_list.filter((a,i)=>  i % 2===1);
+// document.write(even_num);
+
+
+
+
+//--------------------------------task 06 part c ---------------------//
+// var num_arr_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+// let odd_num  =num_arr_list.filter((a,i)=>  i % 2===0);
+// document.write(odd_num);
+
+
+
+
+
+
+//--------------------------------task 06 part c ---------------------//
+// var num_arr_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+// var add_character = 'k';
+// let even_num  =num_arr_list.filter((a,i)=>  i % 2===1);
+// for (var i =0 ; i< even_num.length; i++){
+    
+//     // var new_arr = even_num.join(',')
+//     console.log(even_num[i]+add_character);
+// }
+
+
+
+
+
+//--------------------------------task 07  ---------------------//
+
+// You have an array A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
+//  Write a program to enable “search by user input” in an array. After searching,
+//  prompt the user whether the given item is found in the list or not. Example:
+
+// var fruits = ['A','B','C','D'];
+// var user_search = prompt('Enter the name of fruit for searching in array');
+
+// for(var i=0; i < fruits.length; i++ ){
+//     if (user_search === fruits[i]){
+//         console.log(fruits[i]+' is available in list');
+//         break
+    
+// }
+// // else{
+// //     console.log('Not available');
+// //     break;
+// // }
+
+
+
+// }
+
+// }
+
+
+
+
+//---------------------------------------task 08 -----------------------------------------//
+// Write a program to identify the largest number in the given array. 
+
+//  var num_list = [24, 53, 78, 91, 12];
+// var max_num= Math.min.apply(null, num_list);
+// console.log('Maximum number is :',mini_num);
+
+
+
+
+
+//---------------------------------------task 09 -----------------------------------------//
+//Write a program to identify the smallest number in the given array. A = [24, 53, 78, 91, 12]
+//  var num_list = [24, 53, 78, 91, 12];
+//  var mini_num= Math.min.apply(null, num_list);
+// console.log('Minimum number is :',mini_num);
+
+
+
+
+
+//---------------------------------------task 10 -----------------------------------------//
+//Write a program to print multiples of 5 ranging 1 to 100.
+
+// for (var i=1; i<=100 ; i++){
+//     if(i % 5 === 0){
+//         console.log(i);
+//     }
+// }
+
+
+
+
+//---------------------------------End of chapter 20--------------------------------------//
+
+
+//-----------------------------------End of chapter Exercices till chapter 20---------------//
+//------------------------------------------------------------------------------------------//
+//------------------------------------------------------------------------------------------//
+//------------------------------------------------------------------------------------------//
+//------------------------------------------------------------------------------------------//
+
