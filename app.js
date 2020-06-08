@@ -854,8 +854,236 @@
 
 // -------------------------------------chapter 14----------------------------------//
 
+//-----------------------Chapter 14---------------------------------------------------------//
+
+
+//---------------------------task 01-------------------------------------------------------
+//Declare an empty array using JS literal notation to store student names in future.
+//var my_array = [``];
+
+
+//---------------------------task 02-------------------------------------------------------
+//Declare an empty array using JS object notation to store student names in future.
+// var student_names = { key :'value'}
+
+
+//---------------------------task 03-------------------------------------------------------
+// Declare and initialize a strings array
+// var string_Array = ['','',''];
+
+
+//---------------------------task 04-------------------------------------------------------
+// Declare and initialize a numbers array.
+// var num_list = [1,2,3];
+
+
+//---------------------------task 05-------------------------------------------------------
+// Declare and initialize a boolean array
+// var boolArray = [true,false];
+
+
+//---------------------------task 06-------------------------------------------------------
+// Declare and initialize a mixed array.
+// var mixed_arr = [1,2,{name:'yasir,age:23},'pakistan',4,8];
+
+
+//---------------------------task 07-------------------------------------------------------
+// Declare and Initialize an array and store available
+// education qualifications in Pakistan (e.g. SSC, HSC, BCS, BS, BCOM, MS, M. Phil., PhD)
+// show the listed qualifications in your browser like
+
+
+
+// var sub_list =['SSC','HSC','BSC','BS','BCOM','MS','M.phil','PhD'];
+// for(var i =0; i< sub_list.length ; i++){
+//     document.write(`${i +1}) ${sub_list[i]} <br>`);
+// }
+
+
+//---------------------------task 08-------------------------------------------------------
+//Write a program to store 3 student names in an array.
+//Take another array to store score of these three students.
+// Assume that total marks are 500 for each student, 
+//display the scores & percentages of students like
+
+
+// var stu_names = ['Jhon', 'Alice', 'Mik'];
+// var stu_score = [320, 230, 480];
+
+// var total = 500;
+// for (var i = 0; i < stu_names.length; i++) {
+//     console.log(`Score of ${stu_names[i]} is ${stu_score[i]} and Percentage is ${stu_score[i]/500*100}%`)
+
+// }
 
 
 
 
 
+//---------------------------task 09-------------------------------------------------------
+
+
+// Initialize an array with color names. Display the array elements in your browser.
+//  a. Ask the user what color he/she wants to add to the beginning 
+//     & add that color to the beginning of the array.
+//     Display the updated array in your browser.
+// b. Ask the user what color he/she wants to add to the end &
+//    add that color to the end of the array. Display the updated array in your browser.
+// c. Add two more color to the beginning of the array.
+//    Display the updated array in your browser.
+// d. Delete the first color in the array.
+//    Display the updated array in your browser.
+// e. Delete the last color in the array. 
+//    Display the updated array in your browser.
+// f. Ask the user at which index he/she wants to add a color & color name.
+//    Then add the color to desired position/index.
+//    Display the updated array in your browser
+// g. Ask the user at which index he/she wants to delete color(s)
+//    & how many colors he/she wants to delete. Then remove the same number 
+//    of color(s) from user-defined position/index.
+//      Display the updated array in your browser.
+
+//-------------------------task 9 part a----------------------------------//
+// var color_arr = ['Yellow','Pink','Orange'];
+// var user_input = prompt('Enter the color name you wanted to add in the beginning of array');
+// if(user_input == ''){
+//     alert('Enter the color name first');
+// }
+// else{
+// color_arr.unshift(user_input);
+// console.log(color_arr);    
+// }
+
+
+//-------------------------task 9 part b----------------------------------//
+
+
+
+// var color_arr = ['Yellow','Pink','Orange'];
+// var user_input = prompt('Enter the color name you wanted to add in the end of array');
+// if(user_input == ''){
+//     alert('Enter the color name first');
+// }
+// else{
+// color_arr.push(user_input);
+// console.log(color_arr);    
+// }
+
+
+//-------------------------task 9 part c----------------------------------//
+
+
+
+// var color_arr = ['Yellow','Pink','Orange'];
+
+// color_arr.unshift('white','black');
+// console.log(color_arr);    
+
+
+//-------------------------task 9 part d----------------------------------//
+
+
+
+// var color_arr = ['Yellow','Pink','Orange'];
+
+// color_arr.shift();
+// console.log(color_arr);    
+
+
+//-------------------------task 9 part e----------------------------------//
+
+
+
+// var color_arr = ['Yellow','Pink','Orange'];
+
+// color_arr.pop();
+// console.log(color_arr);    
+
+
+//-------------------------task 9 part f----------------------------------//
+
+
+//  var color_arr = ['Yellow','Pink','Orange'];
+// var number = (function ask() {
+//     var n = prompt('Enter the index number for adding color in array from 0-4');
+//     return isNaN(n) || +n > 4 || +n < 0  ? ask() : n;
+    
+//   }());
+// //   console.log(number)
+//   var color_name = prompt('Enter the name of color');
+//   color_arr.splice(number,0,color_name);
+//   console.log(color_arr);
+
+// var color_arr = ['Yellow','Pink','Orange'];
+// var user_index = prompt('Enter the index number for adding color in array from 0-4');
+// if (user_index > 4){
+//     alert('Choose between 0-4 index number')
+// }
+// else{
+//   var color_name = prompt('Enter the name of color');
+//   color_arr.splice(user_index,0,color_name);
+//   console.log(color_arr);
+
+// }
+
+
+
+//-------------------------task 10----------------------------------//
+// Write a program to store student scores in an array & 
+// sort the array in ascending order using Array’s sort method
+
+// var stu_score_list = [320,500,120,360,400,10];
+// console.log(stu_score_list);
+
+// stu_score_list.sort((a,b) => a - b);
+// console.log(stu_score_list);
+
+
+//-------------------------task 11----------------------------------//
+
+//Write a program to initialize an array with city names.
+// Copy 3 array elements from cities array to selectedCities array.
+
+
+// var arr_cities = ['Islamabad','Karachi','Peshawer','Faisalabad','Toba Tek Singh'];
+// console.log(arr_cities);
+// var new_arr_cities = arr_cities.slice(1,4);
+// console.log(new_arr_cities);
+
+
+//-------------------------task 12----------------------------------//
+// Write a program to create a single string from the below mentioned array:
+//  var arr = [“This ”, “ is ”, “ my ”, “ cat”]; (Use array’s join method)
+
+//  var arr = ['This ', 'is', ' my ', 'cat'];
+//  var new_arr= arr.join('');
+//  console.log(new_arr);
+
+//-------------------------task 13 --------------------------//
+// Create a new array. Store values one by one in such a way that 
+// you can access the values in the order in which they were stored. (FIFO-First In First Out)
+
+
+// var arr_elements = ['A','B','C','D','E'];
+// var new_arr_elements = arr_elements;
+// console.log(new_arr_elements);
+
+//-------------------------task 14----------------------------------//
+// Create a new array. Store values
+//  one by one in such a way that you can access the values in reverse order. (Last InFirst Out)
+
+
+// var arr_elements = ['A','B','C','D','E'];
+// var new_arr_elements = arr_elements.reverse();
+// console.log(new_arr_elements);
+
+
+//-------------------------task 15----------------------------------//
+
+// Write a program to store phone manufacturers
+//  (Apple, Samsung, Motorola, Nokia, Sony & Haier) in an array.
+//  Display the following dropdown/select menu in your browser using document.write() method:
+// var mobile_comapnies = ['Apple','Samsung','Motorola','Nokia','Sony','Haier'];
+// for (var i = 0; i< mobile_comapnies.length; i++){
+//     document.write(mobile_comapnies[i]+'<br>');
+// }
