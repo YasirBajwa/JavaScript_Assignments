@@ -1300,3 +1300,23 @@
 //------------------------------------------------------------------------------------------//
 //------------------------------------------------------------------------------------------//
 
+//---------------------Some example update-------------------------------------------//
+//---------------using foreach loop--------------------------//
+
+// var yourName = prompt("What is your name?");
+// yourName = yourName.toLowerCase();
+
+
+// var cityName = ["karachi", "faisalbad", "lahore", "islamabad", "toba tek singh"];
+// var sameName = false; //flag to keep track of if name matches or not
+// cityName.forEach(function(name) { //loop through each name in driversNames
+//     if(yourName === name) { //compare your name to driver name
+//         sameName = true; //if match, set flag to true
+//     }
+// }); //loop ends here
+// if(sameName) { //if flag is true, a name matched
+//         console.log("Awesome" + " " + yourName + " " + "has found in the list"); //Console log success statement
+// } 
+// else { // else, no name matched
+//       console.log("Sorry" + " " + yourName + " " + "has not found!"); //console log fail statement
+// }
